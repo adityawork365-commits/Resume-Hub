@@ -1,0 +1,50 @@
+Name: Riya Sharma
+Email: riya.sharma@mail.com
+
+Phone: +91 98700 11223
+Location: Pune, India
+
+Professional Summary
+
+Junior Software Developer with experience in Python scripting, basic API development, and frontend support. Looking to grow into a backend-oriented Python role.
+
+Skills
+
+Moderate: Python, SQL, Flask
+
+Basic: HTML, CSS, JavaScript
+
+Tools: Git, Postman
+
+Learning: Docker, AWS basics
+
+Experience
+Junior Developer — CodeNest Pvt. Ltd.
+
+2022 – Present
+
+Wrote Python scripts for data cleaning and automation tasks.
+
+Assisted backend team with small Flask APIs.
+
+Helped QA by writing simple test scripts.
+
+Worked on UI bug fixes for internal tools.
+
+Intern — WebGen Systems
+
+2021 – 2022
+
+Built simple websites using HTML/CSS/JS.
+
+Completed Python training tasks involving data parsing.
+
+Education
+
+B.Sc. Computer Science — Pune University (2021)
+
+Projects
+
+Flask Mini-Blog Application
+
+CSV Data Cleanup Script Using Python

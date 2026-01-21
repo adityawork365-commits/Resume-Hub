@@ -1,0 +1,77 @@
+Job Summary
+
+We are seeking a highly skilled and motivated Python Developer to join our engineering team. The ideal candidate will be responsible for designing, developing, and maintaining scalable backend services, automation tools, and data-driven applications. You will work closely with cross-functional teams—including data scientists, DevOps engineers, and product managers—to build high-performance applications and deliver reliable software solutions.
+
+Key Responsibilities
+
+Design, develop, test, and deploy robust backend applications and APIs using Python.
+
+Build reusable, efficient, and maintainable code following best software engineering practices.
+
+Collaborate with data scientists to integrate machine learning models into production.
+
+Develop automation scripts and tools to optimize operational workflows.
+
+Troubleshoot, debug, and upgrade existing software systems.
+
+Work closely with DevOps to implement CI/CD pipelines and containerized deployments (Docker/Kubernetes).
+
+Integrate third-party APIs and ensure seamless data exchange across platforms.
+
+Optimize application performance, scalability, and security.
+
+Participate in code reviews, technical discussions, and architectural decisions.
+
+Write clear technical documentation and maintain project repositories.
+
+Required Skills & Qualifications
+
+Bachelor’s degree in Computer Science, Software Engineering, or related field.
+
+3+ years of hands-on experience in Python development.
+
+Strong understanding of Python frameworks such as Django, Flask, or FastAPI.
+
+Experience with RESTful API design and microservices architecture.
+
+Proficiency with SQL and NoSQL databases (e.g., PostgreSQL, MySQL, MongoDB).
+
+Familiarity with Docker, Kubernetes, Git, and CI/CD pipelines.
+
+Knowledge of cloud services (AWS, Azure, or GCP) is a plus.
+
+Experience with testing frameworks (PyTest, UnitTest).
+
+Strong problem-solving, analytical, and debugging skills.
+
+Ability to work in an agile, collaborative environment.
+
+Preferred Qualifications
+
+Experience with message brokers (RabbitMQ, Kafka, Redis).
+
+Knowledge of asynchronous programming (AsyncIO, Celery).
+
+Exposure to machine learning pipelines or data engineering workflows.
+
+Understanding of security best practices and API authentication (JWT, OAuth).
+
+Soft Skills
+
+Excellent communication and teamwork abilities.
+
+Strong attention to detail.
+
+Ability to manage time and prioritize tasks effectively.
+
+Willingness to learn new technologies and contribute to continuous improvement.
+
+Benefits
+
+Competitive salary and performance-based bonuses.
+
+Flexible working hours and remote-work options.
+
+Health insurance, paid leave, and professional development support.
+
+Opportunity to work with a high-impact engineering team on innovative projects.

@@ -1,0 +1,64 @@
+Name: Arjun Mehta
+Email: arjun.mehta.dev@gmail.com
+
+Phone: +91 98765 43210
+Location: Bangalore, India
+LinkedIn: linkedin.com/in/arjunmehta
+GitHub: github.com/arjun-python
+
+Professional Summary
+
+Python Developer with 4+ years of experience building scalable backend systems, REST APIs, and automation tools. Skilled in Django, FastAPI, PostgreSQL, Docker, and cloud deployment. Strong background collaborating with DevOps and data teams to deliver high-quality, maintainable software.
+
+Technical Skills
+
+Languages: Python, SQL, Bash
+
+Frameworks: Django, Flask, FastAPI
+
+Databases: PostgreSQL, MySQL, MongoDB
+
+Tools: Git, Docker, Kubernetes, Jenkins, Celery
+
+Cloud: AWS (EC2, Lambda, RDS)
+
+Testing: PyTest, UnitTest
+
+Other: REST APIs, Microservices, AsyncIO
+
+Professional Experience
+Python Backend Developer — TechFlow Solutions
+
+June 2021 – Present | Bangalore
+
+Developed REST APIs using FastAPI and Django, improving system performance by 30%.
+
+Integrated ML models into production pipelines in collaboration with data science teams.
+
+Built automation scripts that reduced manual operations by 40%.
+
+Migrated services to Docker + Kubernetes environment with CI/CD integration.
+
+Optimized SQL queries and caching strategies for high-traffic workloads.
+
+Software Engineer (Python) — CodeHive Technologies
+
+May 2019 – May 2021 | Bangalore
+
+Designed backend microservices for enterprise applications.
+
+Implemented secure API authentication using JWT and OAuth2.
+
+Wrote 200+ unit tests, increasing code coverage to 85%.
+
+Maintained documentation and supported production deployments.
+
+Education
+
+B.Tech in Computer Science — VTU University (2019)
+
+Projects
+
+Smart Inventory API System – Django + PostgreSQL backend with automated inventory prediction.
+
+Cloud-based Automation Framework – Python scripts for log analysis and server monitoring.
