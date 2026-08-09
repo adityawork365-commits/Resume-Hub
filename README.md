@@ -1,480 +1,75 @@
-# Resume-Hub - AI-Powered Resume Screening System
+<div align="center">
 
-Author: Aditya
-GitHub: https://github.com/adityawork365
+# 📄 Resume-Hub: AI-Powered Resume Screening System
 
-An intelligent resume screening system that uses AI and semantic matching to rank candidates against job descriptions.
+An intelligent, end-to-end resume screening platform leveraging Transformer-based semantic embeddings to rank candidate profiles against job requirements in real time.
 
----
-
-## Features
-
-* **AI-Powered Matching**: Uses transformer-based models (Sentence-BERT) for semantic similarity
-* **Multi-Format Support**: PDF, DOCX, TXT, PNG, JPG resume uploads
-* **Professional Dashboard**: Modern, responsive UI with real-time results
-* **Candidate Ranking**: Automatic scoring and ranking based on job fit
-* **Skill Extraction**: Identifies relevant skills from resumes
-* **Export Results**: Download results as CSV for further analysis
-* **Explainable AI**: Clear explanations for each candidate's score
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
+[![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Sentence--Transformers-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://sbert.net)
+[![License](https://img.shields.io/badge/License-Educational-green.svg?style=for-the-badge)](#license)
 
 ---
 
-## Tech Stack
+### 👤 Author
+**Aditya** | [GitHub Profile](https://github.com/adityawork365)
 
-### Backend
-
-* **Flask**: Web framework
-* **Sentence-Transformers**: Semantic embeddings (all-MiniLM-L6-v2)
-* **PyPDF2**: PDF parsing
-* **python-docx**: DOCX parsing
-* **pytesseract**: OCR for image-based resumes
-* **spaCy & NLTK**: Text preprocessing
-* **scikit-learn**: Similarity calculations
-
-### Frontend
-
-* **React.js**: UI framework
-* **Axios**: API communication
-* **CSS3**: Modern styling with gradients and animations
+</div>
 
 ---
 
-## Installation
+## 🌟 Overview
 
-### Prerequisites
+**Resume-Hub** solves the high-volume screening challenge faced by recruiters and HR teams. Modern applicant tracking systems (ATS) often rely on strict keyword matching, which misses qualified candidates who phrase their experiences differently. 
 
-* Python 3.8+
-* Node.js 14+
-* Tesseract OCR (for image processing)
+Resume-Hub addresses this by using **Sentence-Transformers (`all-MiniLM-L6-v2`)** to convert both job descriptions and candidate resumes into 384-dimensional dense vector embeddings. By calculating cosine similarity between these semantic vectors, the platform accurately evaluates true capability and skill relevance.
 
 ---
 
-## Backend Setup
+## 📸 Application Interface
 
-1. Navigate to backend directory
+<div align="center">
 
-```
-cd backend
-```
+### 1. Authentication Portal
+Modern glassmorphism login interface with demo account integration.
+![Login Screen](Screenshot%202026-08-09%20190242.png)
 
-2. Create virtual environment
+### 2. Job Description & Ingestion Portal
+Supports multi-format uploading (PDF, DOCX, TXT, OCR for PNG/JPG) with real-time status tracking.
+![Upload Screen](Screenshot%202026-08-09%20184335.png)
 
-```
-python -m venv venv
-```
+### 3. Real-Time Screening Dashboard
+Ranked candidate profiles with match confidence scores, extracted skills, and categorization tiers.
+![Results Dashboard](Screenshot%202026-08-09%20190237.png)
 
-Activate environment
-
-Windows:
-
-```
-venv\Scripts\activate
-```
-
-Linux / Mac:
-
-```
-source venv/bin/activate
-```
-
-3. Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-4. Download spaCy model
-
-```
-python -m spacy download en_core_web_sm
-```
-
-5. Download NLTK data
-
-```
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
-```
-
-6. Start backend server
-
-```
-python app.py
-```
-
-Backend runs on:
-
-```
-http://localhost:5000
-```
+</div>
 
 ---
 
-## Frontend Setup
+## ✨ Key Features
 
-1. Navigate to frontend folder
-
-```
-cd frontend
-```
-
-2. Install dependencies
-
-```
-npm install
-```
-
-3. Start development server
-
-```
-npm start
-```
-
-Frontend runs on:
-
-```
-http://localhost:3000
-```
+* 🧠 **Semantic AI Matching**: Uses `Sentence-BERT` for contextual semantic similarity beyond keyword matching.
+* 📂 **Multi-Format Ingestion**: Native parsing for PDF, DOCX, TXT, plus **Tesseract OCR** engine for image resumes (PNG/JPG).
+* 📊 **Interactive Scoring Tiers**: Categorizes applicants into score tiers:
+  * 🟢 **Excellent**: $\ge 75\%$
+  * 🔵 **Good**: $60\% - 74\%$
+  * 🟡 **Moderate**: $45\% - 59\%$
+  * 🔴 **Low**: $< 45\%$
+* 🔍 **Automated Entity & Skill Extraction**: Uses `spaCy` and `NLTK` to extract core skill keywords from unstructured document text.
+* 📈 **Analytics Export**: Single-click export of structured candidate ranking reports into standard CSV format.
 
 ---
 
-## Usage
+## 🛠 Tech Stack
 
-### Step 1: Login
-
-Demo credentials
-
-Email:
-
-```
-admin@smartscreen.ai
-```
-
-Password:
-
-```
-admin123
-```
+| Domain | Technologies Used |
+| :--- | :--- |
+| **Frontend Framework** | React.js, Axios, Modern Responsive CSS3 |
+| **Backend Framework** | Flask (Python RESTful API) |
+| **AI / Machine Learning** | PyTorch, Sentence-Transformers (`all-MiniLM-L6-v2`), Scikit-Learn |
+| **NLP & Ingestion Engines** | spaCy, NLTK, PyPDF2, python-docx, PyTesseract (OCR) |
 
 ---
 
-### Step 2: Enter Job Description
-
-Paste job description including:
-
-* Job title
-* Required skills
-* Responsibilities
-* Experience requirements
-
----
-
-### Step 3: Upload Resumes
-
-Upload formats:
-
-* PDF
-* DOCX
-* TXT
-* PNG
-* JPG
-
-Maximum file size:
-
-```
-16MB per file
-```
-
----
-
-### Step 4: Review Results
-
-* View ranked candidates
-* Filter by score category
-* View candidate details
-* Export results as CSV
-
----
-
-## How It Works
-
-### 1. Document Parsing
-
-Extracts text from multiple formats using different parsers.
-
-### 2. Text Preprocessing
-
-* Removes noise
-* Cleans special characters
-* Extracts key information
-
-### 3. Semantic Embedding
-
-Uses **Sentence-BERT (all-MiniLM-L6-v2)** model.
-
-* Embedding size: **384 dimensions**
-* Captures semantic meaning beyond keyword matching
-
-### 4. Similarity Calculation
-
-Uses **cosine similarity** to compare resume and job description.
-
-Score range:
-
-```
-0 – 100%
-```
-
----
-
-### 5. Ranking & Explanation
-
-Candidates are ranked by match score.
-
-Explanation includes:
-
-* similarity score
-* matched skills
-* experience relevance
-
----
-
-## Scoring Categories
-
-Excellent
-
-```
-75%+
-```
-
-Good
-
-```
-60 – 74%
-```
-
-Moderate
-
-```
-45 – 59%
-```
-
-Low
-
-```
-Below 45%
-```
-
----
-
-## API Endpoints
-
-### Login
-
-POST
-
-```
-/api/login
-```
-
-Request example
-
-```
-{
- "email": "admin@smartscreen.ai",
- "password": "admin123"
-}
-```
-
----
-
-### Resume Screening
-
-POST
-
-```
-/api/screen
-```
-
-Parameters
-
-* jobDescription
-* resumes (multiple files)
-
----
-
-### Health Check
-
-GET
-
-```
-/api/health
-```
-
----
-
-## Project Structure
-
-```
-Resume-Hub
-│
-├── backend
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── models
-│   │   └── screening.py
-│   └── utils
-│       ├── parser.py
-│       ├── preprocessor.py
-│       └── matcher.py
-│
-├── frontend
-│   ├── package.json
-│   ├── public
-│   │   └── index.html
-│   └── src
-│       ├── App.js
-│       ├── index.js
-│       ├── index.css
-│       ├── components
-│       │   ├── Login.js
-│       │   ├── Upload.js
-│       │   └── Results.js
-│       └── utils
-│           └── api.js
-│
-└── README.md
-```
-
----
-
-## Model Information
-
-Model:
-
-```
-all-MiniLM-L6-v2
-```
-
-Model size:
-
-```
-~80MB
-```
-
-Embedding dimension:
-
-```
-384
-```
-
-Average inference time:
-
-```
-~10ms
-```
-
----
-
-## Troubleshooting
-
-### Backend Issues
-
-Model download fails
-
-```
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer('all-MiniLM-L6-v2')
-```
-
-OCR not working
-
-Install Tesseract:
-
-Linux
-
-```
-sudo apt-get install tesseract-ocr
-```
-
-Or download from
-
-https://github.com/UB-Mannheim/tesseract/wiki
-
----
-
-Port already in use
-
-Change port in `app.py`
-
-```
-app.run(debug=True, host='0.0.0.0', port=5001)
-```
-
----
-
-### Frontend Issues
-
-CORS errors
-
-* Ensure backend runs on port **5000**
-* Check `API_BASE_URL` in
-
-```
-frontend/src/utils/api.js
-```
-
----
-
-Connection refused
-
-* Ensure backend server is running
-* Check firewall settings
-
----
-
-## Future Enhancements
-
-* User authentication with database
-* Resume storage and history
-* Batch processing
-* Advanced filters
-* Interview scheduling
-* Email notifications
-* Multiple job comparison
-* Candidate feedback system
-
----
-
-## License
-
-This project is for **educational purposes**.
-
----
-
-## Credits
-
-Built with:
-
-* Sentence-Transformers
-* React.js
-* Flask
-
----
-
-Demo Credentials
-
-Email
-
-```
-admin@smartscreen.ai
-```
-
-Password
-
-```
-admin123
-```
-
-Note:
-
-First run will download the ML model (~80MB). After that, the system will run faster.
+## ⚙️ How It Works
