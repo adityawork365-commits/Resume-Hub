@@ -13,7 +13,7 @@ An intelligent, end-to-end resume screening platform leveraging Transformer-base
 ---
 
 ### 👤 Author
-**Aditya** | [GitHub Profile](https://github.com/adityawork365)
+**Aditya** | [GitHub Profile](https://github.com/adityawork365-commits)
 
 </div>
 
